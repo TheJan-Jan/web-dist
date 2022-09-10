@@ -1,0 +1,1 @@
+import{W as a,e as t,Y as r}from"./index.78de7ac3.js";import{M as n}from"./Markdown.fd97aa04.js";const o=async()=>await(await fetch("https://cdn.jsdelivr.net/gh/thejan-jan/thejan@master/README.md")).text(),d=()=>{const[e]=a(o);return t(r,{get loading(){return e.loading},get children(){return t(n,{get children(){return e()}})}})};export{d as default};

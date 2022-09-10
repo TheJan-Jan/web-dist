@@ -1,0 +1,2 @@
+import{e as o,Y as i,o as n,bC as d}from"./index.78de7ac3.js";import{d as m}from"./useUtil.319ed064.js";import{M as s}from"./Markdown.fd97aa04.js";import"./api.cbfdcdc7.js";import"./useT.4db19f0e.js";const f=()=>{const[t]=m(),a=e=>n.obj.name.endsWith(".md")?e:"```"+d(n.obj.name)+`
+`+e+"\n```";return o(i,{get loading(){return t.loading},get children(){return o(s,{get children(){var e,r;return a((r=(e=t())==null?void 0:e.content)!=null?r:"")}})}})};export{f as default};
